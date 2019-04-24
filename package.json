@@ -1,0 +1,36 @@
+{
+  "name": "graphql_server_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.12",
+    "graphql-server-express": "^0.8.5",
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-tools": "^1.2.3",
+    "http": "0.0.0",
+    "sequelize": "^4.1.0",
+    "subscriptions-transport-ws": "^0.9.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.0.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "graphql": "^0.10.5",
+    "nodemon": "^1.11.0"
+  }
+}
